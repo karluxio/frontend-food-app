@@ -6,10 +6,10 @@ After clone run this:
 pnpm i
 ```
 
-## Dependencies:
+## Dependencies
 
-### Dev:
+### Dev
 
-[]
+[git-commit-msg-linter](https://www.npmjs.com/package/git-commit-msg-linter)
 
-### Prod:
+### Prod
