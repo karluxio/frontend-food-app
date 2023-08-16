@@ -1,4 +1,4 @@
-import { Hero, Navbar } from "./components";
+import { HeadLineCards, Hero, Navbar } from "./components";
 
 export const App = () => {
   return (
@@ -6,6 +6,7 @@ export const App = () => {
       <div className="">
         <Navbar />
         <Hero />
+        <HeadLineCards />
       </div>
     </>
   );
