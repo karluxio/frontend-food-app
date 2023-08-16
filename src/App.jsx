@@ -1,11 +1,12 @@
-import { Navbar } from './components'
+import { Hero, Navbar } from "./components";
 
 export const App = () => {
   return (
     <>
-      <div className=''>
+      <div className="">
         <Navbar />
+        <Hero />
       </div>
     </>
-  )
-}
+  );
+};
