@@ -49,9 +49,11 @@ export const Navbar = () => {
       {/* Overlay */}
 
       <div
-        onClick={() => setNav(!nav)}
+        onClick={() => setNav(false)}
         className={
-          nav ? 'bg-black/80 fixed top-0 left-0 w-full h-screen z-10' : ''
+          nav
+            ? 'bg-black/80 fixed top-0 left-0 w-full h-screen z-10 animate-fadeIn'
+            : ''
         }
       ></div>
 
